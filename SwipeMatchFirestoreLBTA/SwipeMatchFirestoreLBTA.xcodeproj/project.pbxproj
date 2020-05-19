@@ -11,9 +11,10 @@
 		5E44FBF02472C2F70018CD06 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44FBEF2472C2F70018CD06 /* TopNavigationStackView.swift */; };
 		5E44FBF22472D2270018CD06 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44FBF12472D2270018CD06 /* CardView.swift */; };
 		5E48129A24718BA600A3091B /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E48129924718BA600A3091B /* Extensions+UIView.swift */; };
+		5E6BE54F24739D840090BEBB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6BE54E24739D840090BEBB /* User.swift */; };
 		5ED3B70624717EC200AB5D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3B70524717EC200AB5D2B /* AppDelegate.swift */; };
 		5ED3B70824717EC200AB5D2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3B70724717EC200AB5D2B /* SceneDelegate.swift */; };
-		5ED3B70A24717EC200AB5D2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3B70924717EC200AB5D2B /* ViewController.swift */; };
+		5ED3B70A24717EC200AB5D2B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3B70924717EC200AB5D2B /* HomeController.swift */; };
 		5ED3B70D24717EC200AB5D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED3B70B24717EC200AB5D2B /* Main.storyboard */; };
 		5ED3B70F24717EC300AB5D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED3B70E24717EC300AB5D2B /* Assets.xcassets */; };
 		5ED3B71224717EC300AB5D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED3B71024717EC300AB5D2B /* LaunchScreen.storyboard */; };
@@ -24,10 +25,11 @@
 		5E44FBEF2472C2F70018CD06 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		5E44FBF12472D2270018CD06 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5E48129924718BA600A3091B /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		5E6BE54E24739D840090BEBB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5ED3B70224717EC200AB5D2B /* SwipeMatchFirestoreLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatchFirestoreLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED3B70524717EC200AB5D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ED3B70724717EC200AB5D2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5ED3B70924717EC200AB5D2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ED3B70924717EC200AB5D2B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010\U0010HomeController\U0010\U0010.swift"; sourceTree = "<group>"; };
 		5ED3B70C24717EC200AB5D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5ED3B70E24717EC300AB5D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ED3B71124717EC300AB5D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		5E6BE54D24739D6E0090BEBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E6BE54E24739D840090BEBB /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5ED3B6F924717EC200AB5D2B = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +92,12 @@
 		5ED3B70424717EC200AB5D2B /* SwipeMatchFirestoreLBTA */ = {
 			isa = PBXGroup;
 			children = (
+				5E6BE54D24739D6E0090BEBB /* Model */,
 				5E44FBEC2472BF120018CD06 /* Views */,
 				5E48129824718B9000A3091B /* Extensions */,
 				5ED3B70524717EC200AB5D2B /* AppDelegate.swift */,
 				5ED3B70724717EC200AB5D2B /* SceneDelegate.swift */,
-				5ED3B70924717EC200AB5D2B /* ViewController.swift */,
+				5ED3B70924717EC200AB5D2B /* HomeController.swift */,
 				5ED3B70B24717EC200AB5D2B /* Main.storyboard */,
 				5ED3B70E24717EC300AB5D2B /* Assets.xcassets */,
 				5ED3B71024717EC300AB5D2B /* LaunchScreen.storyboard */,
@@ -167,9 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E44FBF22472D2270018CD06 /* CardView.swift in Sources */,
-				5ED3B70A24717EC200AB5D2B /* ViewController.swift in Sources */,
+				5ED3B70A24717EC200AB5D2B /* HomeController.swift in Sources */,
 				5ED3B70624717EC200AB5D2B /* AppDelegate.swift in Sources */,
 				5E44FBEE2472BF440018CD06 /* HomeBottomControlStackView.swift in Sources */,
+				5E6BE54F24739D840090BEBB /* User.swift in Sources */,
 				5E44FBF02472C2F70018CD06 /* TopNavigationStackView.swift in Sources */,
 				5E48129A24718BA600A3091B /* Extensions+UIView.swift in Sources */,
 				5ED3B70824717EC200AB5D2B /* SceneDelegate.swift in Sources */,
@@ -319,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H9CW555FJ;
 				INFOPLIST_FILE = SwipeMatchFirestoreLBTA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H9CW555FJ;
 				INFOPLIST_FILE = SwipeMatchFirestoreLBTA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
