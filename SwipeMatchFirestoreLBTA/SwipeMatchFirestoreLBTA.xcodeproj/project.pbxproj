@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E44FBEE2472BF440018CD06 /* HomeBottomControlStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44FBED2472BF440018CD06 /* HomeBottomControlStackView.swift */; };
+		5E44FBEE2472BF440018CD06 /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44FBED2472BF440018CD06 /* HomeBottomControlsStackView.swift */; };
 		5E44FBF02472C2F70018CD06 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44FBEF2472C2F70018CD06 /* TopNavigationStackView.swift */; };
 		5E44FBF22472D2270018CD06 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44FBF12472D2270018CD06 /* CardView.swift */; };
 		5E48129A24718BA600A3091B /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E48129924718BA600A3091B /* Extensions+UIView.swift */; };
@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E44FBED2472BF440018CD06 /* HomeBottomControlStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlStackView.swift; sourceTree = "<group>"; };
+		5E44FBED2472BF440018CD06 /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
 		5E44FBEF2472C2F70018CD06 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		5E44FBF12472D2270018CD06 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5E48129924718BA600A3091B /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		5E44FBEC2472BF120018CD06 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5E44FBED2472BF440018CD06 /* HomeBottomControlStackView.swift */,
+				5E44FBED2472BF440018CD06 /* HomeBottomControlsStackView.swift */,
 				5E44FBEF2472C2F70018CD06 /* TopNavigationStackView.swift */,
 				5E44FBF12472D2270018CD06 /* CardView.swift */,
 			);
@@ -180,7 +180,7 @@
 				5E44FBF22472D2270018CD06 /* CardView.swift in Sources */,
 				5ED3B70A24717EC200AB5D2B /* HomeController.swift in Sources */,
 				5ED3B70624717EC200AB5D2B /* AppDelegate.swift in Sources */,
-				5E44FBEE2472BF440018CD06 /* HomeBottomControlStackView.swift in Sources */,
+				5E44FBEE2472BF440018CD06 /* HomeBottomControlsStackView.swift in Sources */,
 				5E6BE54F24739D840090BEBB /* User.swift in Sources */,
 				5E44FBF02472C2F70018CD06 /* TopNavigationStackView.swift in Sources */,
 				5E48129A24718BA600A3091B /* Extensions+UIView.swift in Sources */,
